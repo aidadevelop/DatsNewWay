@@ -5,7 +5,7 @@ from snake_game import SnakeGame
 
 def main():
     # Инициализация API клиента
-    AUTH_TOKEN = "c2290c4c-45f4-4a3b-bbe7-6f1bcf1b0603"  # Замените на свой токен
+    AUTH_TOKEN = ""  # Замените на свой токен
     api = SnakeAPI(AUTH_TOKEN)
     
     try:
